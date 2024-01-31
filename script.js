@@ -8,4 +8,4 @@ require(["esri/views/MapView", "esri/WebMap"], (MapView, WebMap) => {
     map: webmap,
     container: "viewDiv"
   });
-});
+
