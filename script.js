@@ -1,5 +1,5 @@
 require(["esri/views/MapView", "esri/WebMap"], (MapView, WebMap) => {
-  
+  // instantiate the WebMap object with a portalItem id
   const webmap = new WebMap({
     portalItem: {
       id: "4d595b39dfcd4b53bb87f3a07ad03e8b" // Use the id of your WebMap
@@ -12,4 +12,5 @@ require(["esri/views/MapView", "esri/WebMap"], (MapView, WebMap) => {
     map: webmap // Use the webmap instance
   });
 });
+
 
